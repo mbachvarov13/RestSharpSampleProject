@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Martin_Bachvarov\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationBL\\RestApiAutomationBL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Martin_Bachvarov\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationBL\\RestApiAutomationBL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Martin_Bachvarov\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationBL\\RestApiAutomationBL.csproj",
+        "projectName": "RestApiAutomationBL",
+        "projectPath": "C:\\Users\\Martin_Bachvarov\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationBL\\RestApiAutomationBL.csproj",
+        "packagesPath": "C:\\Users\\Martin_Bachvarov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Martin_Bachvarov\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationBL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Martin_Bachvarov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Martin_Bachvarov\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\RestApiAutomationFramework.csproj": {
+                "projectPath": "C:\\Users\\Martin_Bachvarov\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\RestApiAutomationFramework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.1, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Martin_Bachvarov\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\RestApiAutomationFramework.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Martin_Bachvarov\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\RestApiAutomationFramework.csproj",
+        "projectName": "RestApiAutomationFramework",
+        "projectPath": "C:\\Users\\Martin_Bachvarov\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\RestApiAutomationFramework.csproj",
+        "packagesPath": "C:\\Users\\Martin_Bachvarov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Martin_Bachvarov\\source\\repos\\RestApiAutomationFramework\\RestApiAutomationFramework\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Martin_Bachvarov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[108.0.1, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.9.74, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
